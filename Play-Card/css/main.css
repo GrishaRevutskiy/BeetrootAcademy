@@ -1,0 +1,49 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg, #A1C4CD, #6190AA, #333679, #E50C40, #F88B9B);
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	width: 600px;
+	height: 900px;
+	position: relative;
+}
+.card {
+	width: 450px;
+	height: 670px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	transform-style: preserve-3d;
+	transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); 
+
+}
+
+.front_face {
+	background: url(..//img/king_face.jpeg);
+	border-radius: 15px;
+	width:100%;
+	height: 100%;
+	position: absolute;
+	transition: transform 1s;
+}
+.back_face {
+	background: url(..//img/back_kard.jpg);
+	position: absolute;
+	border-radius: 20px;
+	background-position: center;
+	width: 100%;
+	height: 100%;	
+	backface-visibility: hidden;
+	transform:rotateY(180deg);
+	transition: transform 1s;
+}
+.card:hover .front_face{ transform: rotateY(180deg); }
+.card:hover .back_face { transform: rotateY(360deg); }
