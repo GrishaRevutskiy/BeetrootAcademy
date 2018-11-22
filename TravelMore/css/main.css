@@ -1,0 +1,306 @@
+html,body,h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+ 
+@font-face {
+	font-family: 'Aleo';
+	src: url(../fonts/aleoregular.ttf),
+		url(../fonts/aleoregular.woff),
+		url('../fonts/aleoregular.woff2');
+		font-style: normal; 
+		font-weight: normal; 
+}
+/* Первый блок */
+.header	{
+	background: url(../img/Image.svg) no-repeat center top;
+	background-size: cover;
+	height: 820px;
+}
+.container {
+	width: 1110px;
+	margin: auto;
+}
+.container_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 265px;
+}
+/* Первый блок форма */
+h1 {
+	font-family: JosefinSans;
+	color:  #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 0.09em;
+}
+.header_title{
+	font-family: JosefinSans;
+	color:  #ffffff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.27em;
+	margin-bottom: 50px;
+}
+.header_search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:  #ffffff;
+	width: 650px;
+	height: 60px;
+	margin-bottom: 120px;
+}
+.search_form {
+	width:100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: JosefinSans;
+	color:  #999999;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.3em;
+	border: none; 
+}
+	
+.search_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 2px; 
+	background-color:  #5474fd;
+	width: 146px;
+	height: 56px;
+	color: white;
+	border-right: none;
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;	
+	letter-spacing: 0.04em;
+	border:none; 
+}
+.search_button>img {
+	margin-left: 15px;
+ 
+}
+.header_meny {
+	color: white;
+}
+.header_scroll {
+	text-align: center;
+	margin-bottom: 88px;
+
+}
+.header_scroll>p>a {
+	text-decoration: none;
+	font-family: JosefinSans;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+}
+/* Первый блок меню */
+.header_meny {
+	width: 100%;
+	background-color:  #5474fd;
+	height: 80px;
+}
+.meny_block {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 80px;
+}
+.meny {
+	display: flex;
+	list-style-type: none;
+
+}
+.logo_text {
+	font-family: JosefinSans;
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.meny>li>a {
+	text-decoration: none;
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+	margin-right: 42px;
+}
+/* Why Choose Us */
+.about {
+	background:url(../img/Rectangle7.svg) no-repeat center top;
+	background-size: cover;
+	height: 685px;
+	position: relative;
+	padding-top: 130px;
+}
+.about:before {
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: #33393C;
+  	opacity: 0.9;  
+  	z-index: 1;
+
+}
+.about_text {
+	margin-top: 84px;
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	letter-spacing: 0.09em;
+}
+.about_block {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+}
+.about_title {
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 62px;
+}
+.text {
+	width: 100%;
+	font-family: JosefinSans;
+	color:  #e8e8e8;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+
+}
+.button {
+	margin-top:48px;
+	width: 225px;
+	height: 60px;
+}
+.Button_block {
+	border:none;
+	width: 100%;
+	height: 100%;
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background-image:linear-gradient(45deg, #496BFE 39%, #5373FA 30%);
+	
+}
+.about_image {
+	margin-left: 105px;
+}
+.hill {
+	margin:5px 0 0 125px ;
+}
+/* Main How It Works*/
+.HowItWorks {
+	background-color: #323232;
+	height: 337px;
+	padding-top: 48px;
+	box-sizing: border-box;
+}
+.HowItWorks_blok {
+	background:url(../img/Shape1.svg) no-repeat center top;
+	display: flex;
+	justify-content: space-between;
+	width: 975px;
+ }
+ .picture {
+ 	border-radius: 50%;
+	background-color: #333333;
+	width: 96px;
+	height: 96px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+ h3 {
+ 	font-family: Aleo;
+	color:  #e8e8e8;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+ }
+ .HowItWorks_ico {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items:center;
+ 	margin-top: 15px;
+ }
+/* Example  Left*/
+.example {
+	background:url(../img/Example.svg) no-repeat center top;
+	background-size: cover;
+	height: 700px;
+	padding-top:230px;
+}
+
+.example_block {
+	background-color:  rgba(35, 35, 35, 0.9);
+	width: 540px;
+	height: 371px;
+	padding: 30px;
+	box-sizing: border-box;
+
+}
+.row1 {
+	font-family: JosefinSans;
+	color:  #e8e8e8;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;/
+}
+.row2	{
+	font-family: JosefinSans;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+}	
+.row3 {
+	font-family: JosefinSans;
+	color:  #e8e8e8;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px
+}
+.example_block_button {
+	margin-top: 48px;
+	width: 225px;
+	height: 60px;
+}
+.example_button {
+	width: 225px;
+	height: 60px;
+}
+/* Example Right */
