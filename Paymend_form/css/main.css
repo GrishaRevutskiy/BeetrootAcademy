@@ -1,0 +1,143 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(../img/unsplash.svg) no-repeat center top ;
+  background-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4 {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_form {
+  width: 336px;
+  height: 545px;
+  background:white;
+}
+.container_heder {
+  background: #f8edaf;
+  height: 72px; 
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+span {
+  color:  #637570;
+  font-size: 36px;
+  font-weight: 400;
+}
+h1 {
+  color:  #6e7f7b;
+  font-size: 14px;
+  font-weight: 700;
+}
+h2 {
+  color:  #a6a28d;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+.number {
+  font-family: Montserrat;
+  color:  #9eabad;
+  font-size: 13px;
+  font-weight: 400;
+
+}
+.card {
+  width: 288px;
+  height: 44px;
+  margin-bottom: 28px;
+
+}
+.forma{
+  margin-top: 9px;
+}
+.container_main {
+  display: flex;
+  justify-content: center;
+}
+.ontainer_main_column {
+   width: 288px;
+}
+.date_row {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.month {
+  width: 176px;
+  height: 44px;
+}
+.year {
+  margin-left:16px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:  #bac8cb;
+  box-sizing: border-box;
+  background-color:  #ffffff;
+  width: 96px;
+  height: 44px;
+}
+.form_select {
+  width: 100%;
+  height: 100%;
+}
+
+.cvv_pasword {
+  font-family: Montserrat;
+  color:  #9eabad;
+  font-size: 13px;
+
+}
+.cvv_window {
+  margin-top: 9px;
+  width: 96px;
+  height: 44px;}
+.text {
+  line-height: 44px;
+  margin-left: 9px;
+  color:  #9eabad;
+  font-size: 12px;
+  font-weight: 400;
+}
+.svv_row {
+  display: flex;
+}
+.line {
+  margin: 30px 0;
+  width: 288px;
+  border-bottom: 1px solid #edf0f1;
+}
+.button {
+  background-color:  #25b86a;
+  width: 288px;
+  height: 48px;
+  color:  #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.cancel {
+  color:  #9eabad;
+  font-size: 12px;
+  font-weight: 400;
+  width:auto;
+}
+.foter {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
