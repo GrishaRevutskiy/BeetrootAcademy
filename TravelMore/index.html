@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
 </head>
 <body>
+	<script type="text/javascript" src="script.js"></script>
 	<header class="header">
 		<div class="container">
 			<div class="container_block">
@@ -145,26 +146,33 @@
 					Safe Travel Anywhere
 				</div>
 				<div class="footer_ico">
-					<span style="font-size: 16px; color: white;">
   						<i class="fab fa-facebook-f"></i>
   						<i class="fab fa-twitter"></i>
-					</span>
-					<span style="font-size: 16px; color: #5273FA;">
   						<i class="fab fa-linkedin-in"></i>
-					</span>
-					<span style="font-size: 16px; color: white;">
-  						<i class="fab fa-youtube"></i>
+			  			<i class="fab fa-youtube"></i>
   						<i class="fas fa-at"></i>
-					</span>
-
-
-					
-					
 				</div>
 			</div>	
 			
 		</div>
 	</footer>	
 	<p><a name="down"></a></p>
+	<script type="text/javascript">
+$(document).ready(function(){
+$("#menu").on("click","a", function (event) {
+//отменяем стандартную обработку нажатия по ссылке
+event.preventDefault();
+
+//забираем идентификатор бока с атрибута href
+var id = $(this).attr('href'),
+
+//узнаем высоту от начала страницы до блока на который ссылается якорь
+top = $(id).offset().top;
+
+//анимируем переход на расстояние - top за 1500 мс
+$('body,html').animate({scrollTop: top}, 1500);
+});
+});
+</script>
 </body>
 </html>

@@ -1,0 +1,398 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	font-family: OpenSans;
+	color:  #ffffff;
+
+}
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background: url(../img/HeaderBG.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position:relative;
+	&:before {
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: #293B47;
+  	opacity: 0.7;  
+  	z-index: 1;
+	}
+}
+.container {
+	width: 1210px;
+	padding: 25px 20px;
+	margin: 0 auto;
+}
+.content{
+	position:relative;
+	z-index: 2;
+
+}
+.main_row {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 182px;
+}
+.logo {
+	height: 50px;
+	display: flex;
+	align-items:center;
+	&_pict {
+		margin-right: 15px;
+	}
+
+}
+.logo_underline {
+	position:relative;
+	&:before {
+	content: '';
+  	position: absolute;
+  	width: 285px;
+  	height: 1px;
+  	top: -8px;
+  	left: 3px;
+  	background:white;
+  }
+
+}
+.contact {
+	margin-top: 10px;
+	display: flex;
+	flex-direction:column;
+	align-items: flex-end;
+	&_mail {
+		color:white;
+	}
+}
+.consultation {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	text-transform: uppercase;
+	margin-bottom: 147px;	
+	&_header {
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 60px;
+		text-align: center;
+	}
+	&_title {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 24px;
+		margin:88px 0 30px;
+		letter-spacing: 0.079em;
+
+	}
+	&_color {
+		color:#FAE771;
+	}
+
+}
+.contentInfo {
+	background:white;
+	border-radius:5px;
+	&_form {
+		padding: 22px 0 22px 20px;
+		color:  #a6a6a6;
+		font-size: 14px;
+		font-weight: 400;
+		border:none;
+		min-width: 350px;
+
+	}
+	&_button {
+		padding: 25px 59px;
+		background-color:  #bf0508;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: white;
+		border:none;
+		border-radius:0 5px 5px 0;
+
+	}
+
+}
+.mouse_scroll {
+	display: flex;
+	justify-content: center;
+}
+.main {
+	background: #EDEDED;
+	padding-top:51px;
+}
+.widget {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+	margin-bottom: 36px;
+	&_title {
+		color:  #262626;
+		font-size: 36px;
+		font-weight: 700;
+		margin-bottom: 23px;
+		text-transform: uppercase;
+	}
+}
+.OurServices {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 70px;
+	&_content {
+		margin: 0 15px;
+		background:white;
+	}
+	&_title {
+		text-transform: uppercase;
+		color:  #242728;
+		font-size: 13px;
+		font-weight: 700;
+		text-align: center;
+		padding: 29px;
+		line-height: 16px;
+	}
+
+}
+.main_services {
+	text-align: center;
+	margin-bottom: 61px;
+}
+.services {
+	margin-top: 33px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	&_element {
+		width: 370px;
+		margin: 15px;
+		min-height: 340px;
+		background:white;
+	}
+	&_header {
+		color:  #262626;
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&_title {
+		color:  #242728;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 20px;
+		text-align: center;
+			}
+	&_button {
+		border-radius: 5px;
+		background-color:  #ffd800;
+		width: 230px;
+		height: 45px;
+		position: absolute;
+		margin-top: 172px;
+		margin-left: 70px;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		
+	}
+	&_button>a {
+		color:  #150a0c;
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-decoration: none;
+
+	}
+}
+.control {
+	box-sizing:border-box;
+	min-height: 93px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	padding: 18px 33px 15px;
+}
+
+.information {
+	display: flex;
+	background:white;
+	justify-content: space-between;
+	&_name {
+		display: flex;
+		flex-direction: column;
+		color:  #575757;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+		text-align: left;
+		width: 400px;
+		background-color: #EDEDED;
+
+	}
+	&_photo {
+		width: 770px;
+		padding: 50px 70px;	
+		box-sizing:border-box;
+	}
+	.name {
+		padding: 16px 65px 13px 28px;
+
+	}
+}
+.photo_title {
+	margin-top: 50px;
+	color:  #242728;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 8px;
+	text-align: left;
+}
+.photo_subtitle {
+	color:  #575757;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	text-align: left;
+	width: 605px;
+	}
+.help_body {
+	position: relative;
+	z-index: 5;
+}
+.help {
+	background: url(../img/help.jpg) no-repeat;
+	background-size: cover;
+	position:relative;
+	padding-top: 151px;
+	&:before {
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: #293B47;
+  	opacity: 0.7;  
+  	z-index: 1;}
+
+}
+.widget_title_color {
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+
+}
+.widget {
+	margin-bottom: 66px;
+}
+.help_button {
+	width: 574px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+.services_header_size {
+	color:  #575757;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 8px;
+	text-align: center;
+	}
+.main_services_decorate>.service>.services_title {
+	font-family: OpenSans;
+	color:  #575757;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+}
+.help_second {
+	background: url(../img/signup.jpg) no-repeat;
+	background-size:cover;
+}
+.sale {
+	background: white;
+}
+
+.widget_title_color>span {
+	color:#E8CF18;
+
+}
+.sale_title {
+	font-family: OpenSans;
+	color:  #575757;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 8px;
+	text-align: center;
+}
+.title {
+	display:flex;
+	justify-content: center;
+
+}
+.percent {
+	margin-top: 66px;
+	display:flex;
+	justify-content: space-between;
+}
+.percent_sale {
+	width: 257px;
+	display:flex;
+	flex-direction: column;
+	
+
+}
+.sal {
+		font-family: OpenSans;
+		color:  #150a0c;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+.numb {
+	font-family: OpenSans;
+	color:  #bf0508;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	margin:24px 0 23px;
+}
+.percent_sale {
+	font-family: OpenSans;
+	color:  #575757;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 12px;
+	text-align: center;
+}
+
+.footer {
+	background: #1C1C1C;
+	width: 100%;
+	}
+.footer_block {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+}
