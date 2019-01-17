@@ -1,0 +1,57 @@
+@import "slick";
+@import "slick-theme";
+font-family: 'Poppins', sans-serif;
+html,body {
+	width: 100%;
+	height: 100%;
+}
+.block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 65px;
+}
+h1,h3 {
+	text-transform: uppercase;
+	font-family: Poppins;
+	color:  #000000;
+	font-size: 86px;
+	font-weight: 600;
+	line-height: 90px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	color:  #303030;
+	font-size: 18px;
+	line-height: 19.17px;
+	text-align: left;
+	margin-bottom: 30px;
+	}
+.slider {
+	margin-top: 105px;
+	width: 1600px;
+
+}
+.slider img {
+	margin-right: 44px;
+	overflow: hidden;
+	height: 356px;
+
+}
+.slick-prev:after, .slick-next:after {
+    font-size: 70px;
+    color: #00569C;
+    left:-80px;
+    top: -35px;
+    background: white;
+    position: absolute;
+    content: url(../img/Layer10left.svg);
+    border-radius: 50%;
+    background:transparent;
+}
+.slick-next:after {
+	content: url(../img/Layer10.svg);
+	left: -170px;
+}
